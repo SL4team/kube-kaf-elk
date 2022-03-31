@@ -5,8 +5,6 @@
 ![image](https://user-images.githubusercontent.com/97927143/161081887-31320b29-55e6-46cc-8b41-1e884e73584d.png)
 
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
-
 ### 📝 스케쥴
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
