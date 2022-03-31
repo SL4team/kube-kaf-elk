@@ -23,3 +23,7 @@
 
 <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="65" height="65" /></div>
 
+
+![image](https://user-images.githubusercontent.com/97927143/161082845-b4d71fc7-5a8f-4872-8536-03cbd8e1b881.png)
+
+![image](https://user-images.githubusercontent.com/97927143/161082642-7167a521-6604-4fc1-b664-cf334775d653.png)
