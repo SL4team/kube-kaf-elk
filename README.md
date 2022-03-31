@@ -24,14 +24,29 @@
 <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="65" height="65" /></div>
 
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
+
+### 도커 허브
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
+
+![image](https://user-images.githubusercontent.com/97927143/161083078-40a67d5e-df2d-42e0-9c81-58bbd612b383.png)
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
+
+### ㅇ
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
+
 ![image](https://user-images.githubusercontent.com/97927143/161082845-b4d71fc7-5a8f-4872-8536-03cbd8e1b881.png)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 
 ### 플랫폼 구성도
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
+
 ![image](https://user-images.githubusercontent.com/97927143/161082642-7167a521-6604-4fc1-b664-cf334775d653.png)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 
-![image](https://user-images.githubusercontent.com/97927143/161083078-40a67d5e-df2d-42e0-9c81-58bbd612b383.png)
