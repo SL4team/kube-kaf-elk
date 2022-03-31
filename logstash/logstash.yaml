@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: logstash
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: logstash
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: logstash
+    spec:
+      containers:
+      - name: logstash
+        image: cycloid87/jj-logstash:2.0
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 5044
+          protocol: TCP
+        command: [ "sleep" ]
+        args: [ "infinity" ]
