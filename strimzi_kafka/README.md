@@ -11,14 +11,11 @@ sed -i 's/namespace: .*/namespace: kafka/' install/cluster-operator/*RoleBinding
 kubectl create ns my-kafka-project
 
 # Deployment 설정 변경
-060-Deployment-strimzi-cluster-operator.yaml
+vi 060-Deployment-strimzi-cluster-operator.yaml
 
-env:
-name: STRIMZI_NAMESPACEvalue: 
-my-kafka-project -- 추가
-valueFrom: -- 주석처리
-fieldRef: -- 주석처리
-fieldPath: metadata.namespace -- 주석처리
+![image](https://user-images.githubusercontent.com/97927143/161060991-c7b9136e-27dc-4814-b6b8-ab31de7ae73d.png)
+
+
   
 # CRD 생성 명령어
 kubectl apply -f install/cluster-operator/ -n kafka
