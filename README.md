@@ -1,5 +1,5 @@
 ### kubernetes, docker, Kafka, ELK를 사용해서 내 주변의 모든 데이터들을 지도에 시각화한 삶은당근.pj
-![image](https://user-images.githubusercontent.com/97927143/161080884-de8a6980-9468-48fb-b6ee-800844a84d55.png)
+<div align="center"> ![image](https://user-images.githubusercontent.com/97927143/161080884-de8a6980-9468-48fb-b6ee-800844a84d55.png)</div>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 
