@@ -45,13 +45,13 @@ Container Orchestration
   
 ### 구현 기능
 
-## 서민수
+서민수
   
-## 한재리
+한재리
   
-## 김빛가람
+김빛가람
 
-## 김빛가람
+천서희
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 
