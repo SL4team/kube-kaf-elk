@@ -17,14 +17,14 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 
-<div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="icon" width="65" height="65" /><div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="65" height="65" /></div>
+<div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="icon" width="65" height="65" /><div style="display: flex; align-items: flex-start;"></div>
 
+  <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="65" height="65" />
 
 <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" /><img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="65" height="65" /></div>
 
 <div style="display: flex; align-items: flex-start;"></div>
 
-![image](https://user-images.githubusercontent.com/97927143/161084741-13d9017c-c8e6-4a32-ac0d-e2302610a4a8.png)
 ![image](https://user-images.githubusercontent.com/97927143/161084969-0e3a91d7-997d-42db-8093-4ed9ace8ce40.png)
 
 ![image](https://user-images.githubusercontent.com/97927143/161084255-cb9c4ca6-dfd4-42b0-a2d0-18e81d3af1d8.png)
