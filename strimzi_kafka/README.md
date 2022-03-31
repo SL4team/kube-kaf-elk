@@ -14,11 +14,11 @@ kubectl create ns my-kafka-project
 060-Deployment-strimzi-cluster-operator.yaml
 
 env:
- name: STRIMZI_NAMESPACE
- value: my-kafka-project --> 추가
- valueFrom: --> 주석처리
- fieldRef: --> 주석처리
- fieldPath: metadata.namespace --> 주석처리
+name: STRIMZI_NAMESPACE
+value: my-kafka-project --> 추가
+valueFrom: --> 주석처리
+fieldRef: --> 주석처리
+fieldPath: metadata.namespace --> 주석처리
   
 # CRD 생성 명령어
 kubectl apply -f install/cluster-operator/ -n kafka
