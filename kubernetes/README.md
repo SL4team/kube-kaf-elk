@@ -1,6 +1,6 @@
 # [ 쿠버네티스 환경 구성 과정 _ ubuntu18.04]
 
-# 필수 구성요소 설치
+# 1. 필수 구성요소 설치
 
 cat <<EOF | sudo tee /etc/modules-load.d/containerd.conf
 overlay
@@ -20,7 +20,7 @@ EOF
 # 재부팅하지 않고 sysctl 파라미터 적용
 sudo sysctl --system
 
-# containerd(런타임) 설치 - 도커 지원 중단에 따른 방안
+# 2. containerd(런타임) 설치 - 도커 지원 중단에 따른 방안
 
 sudo apt-get update 
 
