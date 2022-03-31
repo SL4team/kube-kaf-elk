@@ -5,8 +5,7 @@ wget https://github.com/strimzi/strimzi-kafka-operator/releases/download/0.24.0/
 kubectl create ns kafka create ns kafka
 
 # strimzi 설정 변경, OS에 따라 namespace가 다릅니다
-On linux : sed -i ‘s/namespace: .*/namespace: kafka/’ install/cluster-operator/*RoleBinding*.yaml
-On Mac : sed -i ” ‘s/namespace: .*/namespace: kafka/’ install/cluster-operator/*RoleBinding*.yaml
+sed -i 's/namespace: .*/namespace: kafka/' install/cluster-operator/*RoleBinding*.yaml
 
 # kafka cluster 관리용 ns
 kubectl create ns my-kafka-project
