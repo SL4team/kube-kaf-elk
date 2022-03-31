@@ -22,7 +22,6 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 
 ![image](https://user-images.githubusercontent.com/97927143/161089166-594e124a-9ad9-45bf-af48-2d2d24b5a355.png)
-
 <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="icon" width="65" height="65" /><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="65" height="65" /><div style="display: flex; align-items: flex-start;"></div>
 
 <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="65" height="65" /><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" /></div>
