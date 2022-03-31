@@ -1,4 +1,4 @@
-### kubernetes, docker, Kafka, ELK를 사용 내 주변의 모든 데이터들을 지도에 시각화한 삶은당근.pj
+### Kubernetes . Docker . Kafka . Elk . "삶은당근"
 ![image](https://user-images.githubusercontent.com/97927143/161089545-fa875df4-f80b-47a1-83d4-0fa1eac221b9.png)
 
 ![image](https://user-images.githubusercontent.com/97927143/161081887-31320b29-55e6-46cc-8b41-1e884e73584d.png)
