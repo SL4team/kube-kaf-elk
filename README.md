@@ -17,3 +17,4 @@
 
 <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="65" height="65" /></div>
 
+file:///C:/Users/%EA%B0%80%EB%9E%8C/Downloads/aerlingus.svg
