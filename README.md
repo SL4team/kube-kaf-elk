@@ -1,4 +1,4 @@
-# kubernetes와 Kafka, ELK를 사용해 내 주변의 모든 데이터를 지도에 시각화한 삶은당근 프로젝트
+# kubernetes, docker, Kafka, ELK를 사용해 내 주변의 모든 데이터를 지도에 시각화한 삶은당근 프로젝트
 
 ## 스케쥴
 
