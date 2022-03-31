@@ -44,7 +44,7 @@ sudo mkdir -p /etc/containerd
 containerd config default | sudo tee /etc/containerd/config.toml
 sudo systemctl restart containerd
 
-3. systemd croup 드라이버 사용
+# 3. systemd croup 드라이버 사용
 
 vi /etc/containerd/config.toml
 에서 SystemdCgroup =false -> true 로 변경
