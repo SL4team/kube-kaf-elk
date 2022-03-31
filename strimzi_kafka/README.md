@@ -14,18 +14,20 @@ kubectl create ns my-kafka-project
 060-Deployment-strimzi-cluster-operator.yaml
 
 env:
-- name: STRIMZI_NAMESPACE
-  value: my-kafka-project --> 추가
-  valueFrom: --> 주석처리
-  fieldRef: --> 주석처리
-  fieldPath: metadata.namespace --> 주석처리
+ name: STRIMZI_NAMESPACE
+ value: my-kafka-project --> 추가
+ valueFrom: --> 주석처리
+ fieldRef: --> 주석처리
+ fieldPath: metadata.namespace --> 주석처리
   
 # CRD 생성 명령어
 kubectl apply -f install/cluster-operator/ -n kafka
 
 # kafka와 my-kafka-project에 Rolebinding을 부여하는 명령어
 kubectl create -f install/cluster-operator/020-RoleBinding-strimzi-cluster-operator.yaml -n my-kafka-project
+
 kubectl create -f install/cluster-operator/031-RoleBinding-strimzi-cluster-operator-entity-operator-delegation.yaml -n my-kafka-project
+
 
 모든 설정 후 전체 모습
 ![image](https://user-images.githubusercontent.com/97927143/161060001-7db5884c-2d9d-43c2-8ef7-517fc8f0f415.png)
