@@ -1,0 +1,15 @@
+apiVersion : v1
+kind: Service
+metadata: 
+  name: spark-driver
+  namespace: default
+spec:
+  clusterIP: None
+  ports:
+  - port: 29413
+    protocol: TCP
+    targetPort: 29413
+  selector:
+    job: spark-job
+  sessionAffinity: None
+  type: ClusterIP
