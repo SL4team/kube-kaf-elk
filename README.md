@@ -44,7 +44,15 @@ Container Orchestration
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
   
 ### 구현 기능
+
+## 서민수
   
+## 한재리
+  
+## 김빛가람
+
+## 김빛가람
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 
 ### 도커 허브
