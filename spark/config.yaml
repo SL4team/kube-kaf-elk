@@ -1,0 +1,19 @@
+apiVersion : v1
+kind: ConfigMap
+metadata: 
+  name: spark-config
+  namespace: default
+data:
+  spark-defaults.conf: |
+    spark.master=k8s://172.30.1.43
+    spark.ui.port=4040
+    spark.driver.host=spark-driver
+    spark.driver.bindAddress=0.0.0.0
+    spark.driver.port=29413
+    spark.kubernetes.pyspark.pythonVersion=3
+    spark.pyspark.python=/usr/bin/python3
+    spark.pyspark.driver.python=/usr/bin/python3
+    spark.kubernetes.container.image=
+    spark.kubernetes.namespace=default
+    spark.kubernetes.executor.request.cores=1.0
+    spark.executor.instances=8
