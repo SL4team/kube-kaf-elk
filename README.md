@@ -8,7 +8,7 @@
 | 2주차 | ☑️ | ☑️ | Kubernetes, kafka, ELK, spark 등 자료 조사 후 환경 구성  |
 | 3주차 | ☑️ | ☑️ | 마지막 data 점검과 kibana 시각화 후 마무리 ppt와 플랫폼 구성도 및 git 제작 |
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=default&theme=dark&show_icons=true)
+![SL4team's GitHub stats](https://github-readme-stats.vercel.app/api?username=default&theme=dark&show_icons=true)
 
 <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="icon" width="65" height="65" /></div>
 
