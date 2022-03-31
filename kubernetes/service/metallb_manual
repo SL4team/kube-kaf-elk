@@ -1,0 +1,20 @@
+1. MetalLB를 위한 네임스페이스를 생성.
+kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.9.3/manifests/namespace.yaml
+
+2. MetalLB Components를 생성.
+kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.9.3/manifests/metallb.yaml
+
+3. Secret을 생성.
+kubectl create secret generic -n metallb-system memberlist --from-literal=secretkey="$(openssl rand -base64 128)"
+
+4. 라우팅 처리를 위한 ConfigMap을 생성.
+vi configmap.yaml
+
+5. Configmap.yaml 파일 적용
+kubectl apply -f configmap.yaml
+
+6. Deployment에 Service expose
+kubectl expose deploy [ 디플로이먼트이름 ] --type LoadBalancer --name elastic
+
+7. Service 생성 확인
+kubectl get svc
