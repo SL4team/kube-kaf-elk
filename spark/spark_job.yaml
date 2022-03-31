@@ -1,0 +1,32 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata: 
+  name: spark-master
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      job: spark-job
+  template:
+    metadata:
+      labels:
+        job: spark-job
+    spec:
+      containers:
+      - args:
+        - '/opt/spark/bin/spark-submit ../examples/src/main/python/pi.py 1000000; tail -f /dev/null;'
+        command:
+        - /bin/sh
+        - -c
+        image: 
+        imagePullPolicy: Always
+        name: main
+        resources:
+          requests:
+            cpu: "1.5"
+            memory: 2Gi
+        volumeMounts:
+        - mountPath: /opt/spark/conf
+          name: spark-config
+        
