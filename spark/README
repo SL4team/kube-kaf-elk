@@ -1,9 +1,0 @@
-dockerfile_imagebuild : 우분투 기반 스파크 환경 구성된 도커 이미지 빌드 파일
-
-config.yaml : 스파크 환경에 대한 기본 설정 파일
-
-role.yaml : 해당 디플로이먼트에 대한 configmap을 읽어들일 수 있게 해주고 명령어를 실행할 수 있도록 권한 부여하는 역할 설정 파일
-
-service.yaml : 스파크 디플로이먼트의 서비스에 대한 설정 파일
-
-spark_job.yaml : 스파크 디플로이먼트에 대한 정보 파일
