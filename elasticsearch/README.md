@@ -29,6 +29,7 @@ service elasticsearch start
     elasticsearch 실행 환경에 대한 실제 설정을 작성하는 파일
 
     elasticsearch.yml 사진 파일 첨부
+![image](https://user-images.githubusercontent.com/97927143/161200811-e50e3994-ff24-4ff3-b41a-8de2d7fddd1d.png)
 
 
 
@@ -39,8 +40,7 @@ service elasticsearch start
     파일이 제대로 작동하지 않아서 다음과 같은 명령어를 개인적으로 추가함
 
     usr-share-elasticsearch-bin-elasticsearch 사진 첨부
-![image](https://user-images.githubusercontent.com/97927143/161200773-1d906021-56a7-41ed-8e47-9ac7931fb1ec.png)
-
+![image](https://user-images.githubusercontent.com/97927143/161200829-e1c26303-8534-4986-ba28-503d42eac69c.png)
 
 ● elasticsearch.yaml : 엘라스틱서치 디플로이먼트 생성 파일
 
@@ -48,3 +48,4 @@ service elasticsearch start
     쿠버네티스안에 디플로이먼트 형태의 컨테이너 생성
 
     elasticsearch.yaml 사진 파일 첨부
+![image](https://user-images.githubusercontent.com/97927143/161200861-6ef8d2cf-f111-4f34-b2bf-667c052974be.png)
