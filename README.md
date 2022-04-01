@@ -46,11 +46,18 @@ Container Orchestration
 ### 구현 기능
 
 서민수
-  
+  - kubernetes 환경 구성 및 설치
+  - containerd 설치
+  - master node 설정
+  - worker node 설정
+  - spark 환경 구성 및 설치
 한재리
-  
+  - Elasticsearch 환경 구성 및 설치
+  - Logstash 환경 구성 및 설치
+  - kibana 환경 구성 및 설치
 김빛가람
-
+  - strimzi 설치
+  - kafka cluster 환경 구성
 천서희
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
