@@ -56,13 +56,17 @@ Container Orchestration
   - Elasticsearch 환경 구성 및 설치
   - Logstash 환경 구성 및 설치
   - kibana 환경 구성 및 설치
-
+  - data 시각화 처리
+  
 김빛가람
   - strimzi 설치
   - kafka cluster 환경 구성
-
+  
 천서희
-
+  - Django 웹서버 생성
+  - nginx docker 생성 및 구동
+  - ppt 제작
+  
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 
 ### 도커 허브
