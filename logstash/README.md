@@ -1,15 +1,19 @@
-# docker image를 사용한 elasticsearch 설치법.
+## Logstash
 
-kubectl apply -f logstash.yaml
+▷ 역할
 
-kubectl expose deploy elastic --type LoadBalancer --name elastic
+다양한 입력 소스로부터 입력받는 여러 종류의 데이터를 분석하기 쉬운 형태의 데이터로 정제하여 수집하는 프로그램
 
-kubectl get pods
+실시간 파이프라인 기능을 가진 오픈소스 데이터 수집 엔진, 수집된 데이터를 정규화하여 목적지로 전송하는 역할
 
-kubectl exec -it logstash-68469b57c4-x62fw /bin/bash
+● logstash.conf
 
-/usr/share/logstash/bin/logstash -f ./logstash-sample.conf
+▷ 역할
+
+로그스태시를 기동할 때에 실행할 데이터 파이프라인에 대한 설정을 미리 작성하는 파일
 
 
-# logstash.conf
-logstash가 kafka에서 data를 가져오는 consumer 일때의 코드 입니다.
+![logstash conf](https://user-images.githubusercontent.com/97823665/161202109-ea99b11c-bec5-4281-8fe2-f8841590c288.PNG)
+
+※ kafka에서 값을 받아와서 elasticsearch로 전달하는 과정을 작성한 파일이고 따로 filter는 없음
+
