@@ -39,6 +39,7 @@ service elasticsearch start
     파일이 제대로 작동하지 않아서 다음과 같은 명령어를 개인적으로 추가함
 
     usr-share-elasticsearch-bin-elasticsearch 사진 첨부
+![image](https://user-images.githubusercontent.com/97927143/161200773-1d906021-56a7-41ed-8e47-9ac7931fb1ec.png)
 
 
 ● elasticsearch.yaml : 엘라스틱서치 디플로이먼트 생성 파일
