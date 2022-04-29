@@ -59,6 +59,7 @@ Container Orchestration
   - data 시각화 처리
   
 김빛가람
+  - readme
   - strimzi 설치
   - kafka cluster 환경 구성
   
